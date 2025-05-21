@@ -1,0 +1,21 @@
+#pragma once
+
+#define DEBUG_ACTIVATE 0
+#define POLLING_INTERVAL 2000 // 1 second in milliseconds
+#define CLIPBOARD_RETRY 3
+#define LOG_FILE_PATH "./" // Path to the log file
+
+// Change these defines to match your setup
+#define TARGET_MAIL_ADDRESS "Your target mail address"
+#define TIME_DIFFERENCE 180 // 5 minutes in seconds
+
+#define IMAP_SERVER "Your IMAP server"
+#define IMAP_PORT 993
+
+#define IMAP_URL "imaps://" IMAP_SERVER ":993/"
+
+#define IMAP_USERNAME "Your Username"
+#define IMAP_PASSWORD "Your Password"
+
+// Sanity check
+#define TEST_URL "https://www.google.com/"

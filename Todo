@@ -1,0 +1,4 @@
+## Todo
+- add notification for user if token has been found (Windows toast notification)
+- add simple installation script for Windows (PowerShell)
+- change hardcoded credentials
